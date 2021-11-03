@@ -1,0 +1,115 @@
+div.news-content {
+    padding: .5rem $gutter 0 $gutter; 
+
+
+
+.date-post {
+    background-color: $primaryColor; 
+    float: left; 
+    margin-bottom: 10px; 
+    
+
+    h2 {
+    color: $fontColor; 
+    padding: 5px; 
+    text-align: center;
+    font-size: 24px;  
+
+    }
+
+
+    p {
+    color: $fontColor; 
+    padding: 5px; 
+    text-align: center; 
+
+    }
+} // end date-post
+
+.post-content-text { 
+    margin-left: 4rem; 
+
+h3.news-title {
+    font-size: 1.4rem; 
+    margin-left: 10px; 
+
+}
+
+h3.news-title a {
+    color: $primaryColor; 
+}
+
+h3.news-title a:link, a:visited {
+    color: $primaryColor; 
+}
+
+
+.news-content-excerpt {
+    margin: 10px; 
+    margin-bottom: 30px;  
+
+.news-short-content {
+    margin-bottom: 30px; 
+}
+
+
+    a.news-more-link {
+        clear: both; 
+        background-color: $secondaryColor;
+        color: $fontColor;  
+        padding: 10px; 
+        margin: 15px; 
+        margin-top: 50px; 
+        border-radius: 20px; 
+        text-decoration: none; 
+    }
+     
+}
+
+
+} // end of new text
+
+
+
+
+} // end news content
+
+
+div.news_pagination {
+    text-align: center; 
+
+    .page-numbers {
+         
+    }
+    a {
+        padding: 2px; 
+        font-size: 18px; 
+        color: black; 
+    }
+    a:hover {
+        background-color: $primaryColor; 
+        color: $fontColor; 
+    }
+    .current {
+      //  background-color: purple; 
+    }
+} // end page next and previous
+
+
+figure.newsphoto {
+    width: 100%; 
+    img {width: 100%;}
+}
+
+
+@media only screen and (min-width: 35em) {
+
+    figure.newsphoto {
+        width: 50%; 
+        float: right; 
+        margin-left: $gutter;
+        margin-bottom: 100px; 
+    }
+
+}
+
