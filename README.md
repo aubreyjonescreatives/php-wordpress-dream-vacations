@@ -1,6 +1,9 @@
-# Welcome to the Dreamer Vacations website. We installed WordPress locally to avoid using WordPress like a blog. 
+# Welcome to the Dreamer Vacations website repository. 
 
-## This website contains php code 
+
+## We installed WordPress locally to use it as a content management system instead of a blog tool. 
+
+## This website contains php code to split the header and footer. 
 
 
 
